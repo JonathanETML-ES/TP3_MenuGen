@@ -75,10 +75,24 @@ void ScanPec12 (bool ValA, bool ValB, bool ValPB)
    DoDebounce (&DescrPB, ValPB);
    
    // Détection incrément / décrément
-  
-   
+   if (DebounceIsPressed(&DescrB))
+   {
+       //Quittance de l'événement 
+       DebounceClearPressed(&DescrB);
+       if(DebounceGetInput (&DescrA) == 0)
+       {
+           //Si A = 0 : situation CW = incrément
+           Pec12.Inc = 1;
+       }
+       else
+       {
+           Pec12.Dec = 1;
+       }
+   }
     
    // Traitement du PushButton
+   
+   
    
    
    // Gestion inactivité
