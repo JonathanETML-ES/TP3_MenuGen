@@ -56,9 +56,16 @@ SUBSTITUTE GOODS, TECHNOLOGY, SERVICES, OR ANY CLAIMS BY THIRD PARTIES
 #include "app.h"
 #include "Mc32DriverLcd.h"
 #include "Mc32gestSpiDac.h"
-#include "MenuGen.h"
-#include "GesPec12.h"
+
 #include "Generateur.h"
+#include "GesPec12.h"
+#include "MenuGen.h"
+
+#include "Mc32Debounce.h"
+#include "Mc32gestSpiDac.h"
+#include "Mc32NVMUtil.h"
+#include "Mc32SpiUtil.h"
+
 
 // *****************************************************************************
 // *****************************************************************************

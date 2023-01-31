@@ -53,14 +53,14 @@ SUBSTITUTE GOODS, TECHNOLOGY, SERVICES, OR ANY CLAIMS BY THIRD PARTIES
 // *****************************************************************************
 // *****************************************************************************
 
-#include <stdint.h>
-#include <stdbool.h>
+//#include <stdint.h>
+//#include <stdbool.h>
 #include <stddef.h>
 #include <stdlib.h>
 #include "system_config.h"
 #include "system_definitions.h"
 
-#include "DefMenuGen.h"     // paramètres du génerateur
+//#include "DefMenuGen.h"     // paramètres du génerateur
 
 // *****************************************************************************
 // *****************************************************************************
